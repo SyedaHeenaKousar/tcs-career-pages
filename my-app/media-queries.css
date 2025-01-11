@@ -1,0 +1,52 @@
+@media screen and (max-width: 900px) {
+  .business {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .business-card {
+    width: 90%;
+  }
+
+  .hero-section {
+    background-size: contain;
+    position: relative;
+    height: 65vh;
+  }
+
+  .hero-content {
+    width: 100%;
+    position: absolute;
+    top: 30px;
+    left: 10px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+  .hero-content p {
+    font-size: 1rem;
+  }
+
+  .hero-content a {
+    font-size: 1rem;
+  }
+
+  .toggle-btn {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .second-nav-links {
+    display: none;
+  }
+
+  .serach-icon {
+    order: -1;
+  }
+}
