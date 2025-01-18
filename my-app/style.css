@@ -1,0 +1,624 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 10px 20px;
+  color: rgb(8, 8, 8);
+}
+
+.navbar-logo img {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.navbar-menu {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-menu li {
+  margin: 0 15px;
+  cursor: pointer;
+  position: relative;
+}
+
+.navbar-menu li.active::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: blue;
+  bottom: -5px;
+  left: 0;
+}
+
+.navbar-actions {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-actions span {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.search-icon {
+  font-size: 20px;
+}
+
+.hero-section7 {
+  width: 100%;
+  height: 100vh;
+  background: url('../my-app/Images/ai-hero-2_Small.jpg') no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content7 {
+  text-align: center;
+  color: rgb(190, 49, 49);
+}
+
+.content7 h2 {
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.content7 h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.apply-button {
+  display: inline-block;
+  font-size: 18px;
+  text-decoration: none;
+  color: rgb(36, 33, 33);
+  padding: 10px 20px;
+  border: 2px solid rgb(133, 92, 92);
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.apply-button span {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.apply-button:hover {
+  background-color: white;
+  color: black;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  background-color: #fdfbfb;
+}
+
+.text-content {
+  max-width: 80%;
+ 
+}
+
+.text-content h1 {
+  font-size: 4rem;
+  margin-bottom: 5rem;
+  color:black;
+}
+.p {
+  color:black;
+  
+}
+
+.video-content iframe {
+  width: 600px;
+  height: 225px;
+  border: none;
+}
+.container1 {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.item {
+  border-bottom: 1px solid #ddd;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.number {
+  color: blue;
+  font-weight: bold;
+}
+
+.toggle-btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.content1 {
+  display: none;
+  padding: 15px;
+  background-color: #f9f9f9;
+}
+
+.content {
+  margin-top: 10px;
+}
+
+.career-link {
+  text-decoration: underline;
+  color: black;
+}
+/* Section styles */
+.tcs-difference {
+  padding: 2rem;
+  background-color: #fff;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 4rem;
+  margin-bottom: 2.5rem;
+}
+
+/* Card container */
+.card-container {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  overflow-x: auto; /* Allows horizontal scrolling if content overflows */
+  padding: 1rem 0;
+}
+
+/* Individual card styles */
+.card {
+  flex: 0 0 300px; /* Fixed width for each card */
+  text-align: left;
+  background-color: #030303;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-image {
+  width: 100%;
+  height: 100px;
+  object-fit: cover; /* Ensures image fits nicely */
+}
+
+.card-text {
+  font-size: 1.2rem;
+  padding: 1rem;
+  color: #333;
+}
+
+
+  .card {
+    flex: 0 0 80%; /* Cards take up 80% of the container on smaller screens */
+  }
+
+  .container2 {
+    margin: 0 auto;
+    text-align: center;
+    background-color: black;
+  }
+
+.why-tcs-section {
+  text-align: left;
+  padding-top: 5%;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 40px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  background-color: #000;
+  color: #f3f4f3; 
+}
+
+.tab {
+  font-size: 2.2em;
+  position: relative;
+  padding-bottom: 7px;
+  cursor: pointer;
+}
+
+.tab::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: rgb(223, 216, 216);
+  transition: width 0.3s;
+}
+
+.tab.active::after,
+.tab:hover::after {
+  width: 100%;
+}
+.container4 {
+  display: flex;
+  max-width: 1550px;
+  width: 100%;
+  padding: 20px 0;
+  margin:0 auto;
+  background-color: black;
+  box-sizing: border-box;
+}
+
+.image-section {
+  flex: 1;
+  padding: 10px;
+}
+
+.image-section img {
+  width: 150%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.text-section {
+  flex: 1;
+  padding: 10px;
+  
+}
+
+.text-section h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #ccc;
+}
+
+.text-section p {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+  /* Header Section */
+  /* General styles */
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #cfc2c2;
+}
+
+.navbar h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.nav-links a {
+  color: #ccc;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 16px;
+}
+
+.nav-links a:hover {
+  color: #fff;
+}
+
+/* Content styles */
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+.image-section img {
+  width: 400px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.text-section {
+  margin-left: 40px;
+  max-width: 600px;
+}
+
+.text-section h2 {
+  font-size: 48px;
+  margin-bottom: 25px;
+  color: #dfdede;
+}
+
+.text-section p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #d9d3d3;
+}
+  
+  /* Content Section */
+  .content2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+    padding: 0 20px;
+    gap: 40px; /* Space between the image and text */
+  }
+  
+  .content2-image img {
+    width: 500px;
+    height: auto;
+    border-radius: 10px; /* Optional for rounded corners */
+  }
+  
+  .content2-text {
+    max-width: 500px;
+    text-align: left;
+  }
+  
+  .content2-text h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  .content2-text p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #ccc; /* Slightly lighter text color for readability */
+  }
+  /* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Hero Section*/ 
+
+.text-content {
+  color: rgb(10, 10, 10);
+  text-align: left;
+  max-width: 600px;
+}
+
+.sub-heading {
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 1.3;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  font-size: 1rem;
+  color: white;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  background: #007BFF;
+  border-radius: 30px;
+  transition: background 0.3s ease;
+}
+
+.cta-button span {
+  font-size: 1.5rem;
+  line-height: 0;
+}
+
+.cta-button:hover {
+  background: #0056b3;
+}
+
+
+.about-us {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px;
+  background-color: #ffffff;
+}
+
+.card {
+  background-color: #f3f5fa;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 200px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card h1 {
+  font-size: 40px;
+  color: #376db3;
+  margin: 0;
+}
+
+.card h3 {
+  font-size: 16px;
+  color: #000000;
+  margin: 10px 0 5px;
+  text-transform: uppercase;
+}
+
+.card p {
+  font-size: 14px;
+  color: #555555;
+  margin: 0;
+}
+
+.quote-container {
+  position: relative;
+  max-width: 950px; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the container */
+  padding: 80px; /* Add padding for spacing */
+  text-align: center; /* Center-align the text */
+  font-family: 'Arial', sans-serif; /* Choose a font */
+  color: #2a6dbb; /* Set the text color */
+}
+
+.quote-mark {
+  font-size: 150px; /* Make the quotation mark large */
+  color: #2a6dbb; /* Match the text color */
+  position: absolute;
+  top: 0px;
+  left: 10px;
+}
+
+.quote-text {
+  font-size: 20px; /* Set the font size for the text */
+  line-height: 1.6; /* Increase line height for readability */
+  padding-left: 30px; /* Add padding to align with the quote mark */
+}
+.profile-container {
+  display: flex;
+  align-items: center;
+  padding: 50px; /* Adjust padding as needed */
+}
+
+.profile-image {
+  border-radius: 60%; /* Makes the image circular */
+  width: 60px; /* Set the width of the image */
+  height: 60px; /* Set the height of the image */
+  margin-right: 50px; /* Space between image and text */
+}
+
+.profile-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-name {
+  font-size: 18px; /* Adjust font size as needed */
+  font-weight: bold; /* Make the name bold */
+  margin: 0; /* Remove default margin */
+}
+
+.profile-title {
+  font-size: 14px; /* Adjust font size as needed */
+  margin: 5px 0 0 0; /* Adjust margin to create space between name and title */
+}
+
+.text-block {
+  text-align: center;
+  margin: 40px auto; /* Centers the block */
+  max-width: 800px; /* Sets a limit for line length */
+  padding: 20px;
+  color: #376db3; /* Blue color */
+  font-size: 20px; /* Adjust size as needed */
+  line-height: 1.6; /* Adds spacing between lines */
+}
+
+.container5 {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+.text {
+  max-width: 400px;
+}
+.heading {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.description {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #0056b3;
+}
+.image img {
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+}
+.container3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  background-color: #1c1c1c;
+}
+.text-content {
+  max-width: 50%;
+}
+.text-content h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+  color: rgb(8, 8, 8);
+}
+.text-content p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #444;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+.btn:hover {
+  background-color: #222121;
+}
+.image-container3 {
+  max-width: 40%;
+}
+.image-container3 img {
+  width: 100%;
+  border-radius: 10px;
+}

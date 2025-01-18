@@ -8,18 +8,6 @@
     width: 90%;
   }
 
-  /*.hero-section {
-    background-size: contain;
-    position: relative;
-    height: 65vh;
-  }*/
-
-  .hero-content {
-    width: 100%;
-    position: absolute;
-    top: 30px;
-    left: 10px;
-  }
 }
 
 @media screen and (max-width: 750px) {
